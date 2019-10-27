@@ -17,6 +17,7 @@ module.exports = {
     },
 
     setCollection: function (db, collectionName) {
+
         // nazwa kolekcji jest stała
         return db.collection(collectionName).deferredCalls(false);
     },
@@ -34,21 +35,25 @@ module.exports = {
     //saving data to file
     saveDataBaseCollection: function(jsonCollection){
 
-        console.log(jsonCollection);
         jsonCollection.save(function (err) {
             if (!err) {
-             console.log("Udało się zapisać dane do pliku")
+              console.log("Udało się zapisać dane do pliku")
             }
         });
         console.log("Dodane");
     },
 
     //loading data
-    loadDataBase: function(db, jsonCollection) {
-        db.collection(jsonCollection).load(function (err, tableStats, metaStats) {
+    loadDataBase: async function(jsonCollection) {
+     await jsonCollection.load(function (err) {
             if (!err) {
-                console.log(tableStats)
+                console.log(jsonCollection.find());
+                return jsonCollection.find();
             }
         });
+
+     // const data = await jsonCollection.find();
+     // console.log(data);
+     // return data;
     }
 };

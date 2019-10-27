@@ -204,15 +204,14 @@ class Properties extends Component {
     }
 
     handleSaveNodes = () => {
-        let dataBaseManagementProperties = dataBaseManagement.initAndPrepareDataBase(new ProjectProperties("projectName","graphName","./configData"));
-        dataBaseManagement.addRawDataToDataBase(dataBaseManagementProperties.getDataCollectionWithRowData(),this.state.data);
+        dataBaseManagement.addRawDataToDataBase(this.props.db.getDataCollectionWithRowData(),this.state.data);
 
         let graphP = new GraphProperties(new NodeAttributesNames(this.state.nodes[0].id, this.state.nodes[0].name, this.state.nodes[0].properties),
             new NodeAttributesNames(this.state.nodes[1].id, this.state.nodes[1].name,this.state.nodes[1].properties),
             new EdgeAttributesNames(this.state.nodes[0].edgeLabel,[this.state.nodes[0].edgeFrom,this.state.nodes[0].edgeTo]));
 
-        parseRawDataToBankTransactionTemple(dataBaseManagementProperties, graphP);
-        let nodes = dataBaseManagementProperties.getCollectionForNodesData();
+        parseRawDataToBankTransactionTemple(this.props.db, graphP);
+        let nodes = this.props.db.getCollectionForNodesData();
         console.log(nodes.find());
     };
 

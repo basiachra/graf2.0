@@ -2,9 +2,12 @@ const dataBaseModule = require(`./../app/database/forerunnerDB`.replace(/\\/g, '
 const DataBaseManagementProperties = require('./DataBaseManagementProperties');
 module.exports = {
 
-    getDataBase: function(projectName, pathToData,graphName){
-        let dataBaseInstance = dataBaseModule.initDataBase(projectName, pathToData);
-        return dataBaseModule.loadDataBase(dataBaseInstance,graphName+'node');
+    getDataBase: async function(dataBaseInstance,graphName){
+       let nodes = dataBaseInstance.getCollectionForNodesData();
+        nodes = await dataBaseModule.loadDataBase(nodes);
+        console.log(nodes);
+
+        return nodes;
     },
 
     initAndPrepareDataBase: function (projectProperties) {
