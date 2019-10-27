@@ -27,8 +27,8 @@ module.exports = {
 
         let edges = [];
 
-        let nodesSet = new vis.DataSet();
-        let edgesSet = new vis.DataSet();
+        let nodesSet = new this.vis.DataSet();
+        let edgesSet = new this.vis.DataSet();
 
         let sheet = JSON.parse(JSON.stringify("Arkusz1"));
 

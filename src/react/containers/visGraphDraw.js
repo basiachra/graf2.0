@@ -1,5 +1,8 @@
 import React, { Component, Fragment } from "react";
 import Graph from "vis-react";
+import * as DataBaseManagementProperties from "../../graphs/DataBaseManagementProperties";
+import * as dataBaseManagement from "../../graphs/dataBaseManagement";
+import {ProjectProperties} from "../../graphs/ProjectProperties";
 var highlightActive = false;
 
 let options = {
@@ -44,18 +47,6 @@ let options = {
             roundness: 0
         }
     },
-    // physics: {
-    //   forceAtlas2Based: {
-    //       gravitationalConstant: -200,
-    //       centralGravity: 0.05,
-    //       springLength: 230,
-    //       springConstant: 0.08,
-    //       avoidOverlap:9
-    //   },
-    //   solver: 'forceAtlas2Based',
-    //   timestep: 0.35,
-    //   stabilization: {enabled:true,iterations: 10}
-    // },
     physics: {
         barnesHut: {
             gravitationalConstant: -30000,
@@ -102,8 +93,11 @@ export default class VisReact extends Component {
             }
         };
 
+        let dataBaseManagementProperties = dataBaseManagement.getDataBase("projectName","graphName","./configData");
+        //console.log(dataBaseManagementProperties.find());
+
         let newGraph = {};
-        newGraph.nodes = [{"id":400,"label":"Oleg–Olek Pryłowski","info":[{"Datazlecenia":"2018-01-04T23:00:00.000Z"},{"Nrroz.BankuA":"10200003"},{"Datarealizacji":"2018-01-05T23:00:00.000Z"}]},{"id":390,"label":"Ludomiła Gleb","info":[{"Datazlecenia":"2018-01-04T23:00:00.000Z"},{"Datarealizacji":"2018-01-05T23:00:00.000Z"},{"Nrroz.BankuB":"12800003"}]},{"id":7.61030000651918e+25,"label":"Falisława Młynarczyk","info":[{"Datazlecenia":"2018-01-04T23:00:00.000Z"},{"Datarealizacji":"2018-01-05T23:00:00.000Z"},{"Nrroz.BankuB":"10300006"}]},{"id":5.42030000368553e+25,"label":"Cúmheá Strabczewski","info":[{"Datazlecenia":"2018-01-04T23:00:00.000Z"},{"Datarealizacji":"2018-01-05T23:00:00.000Z"},{"Nrroz.BankuB":"20300003"}]},{"id":5.16000003264484e+24,"label":"Daveth Narolski","info":[{"Datazlecenia":"2018-01-04T23:00:00.000Z"},{"Datarealizacji":"2018-01-05T23:00:00.000Z"},{"Nrroz.BankuB":"16000003"}]},{"id":6.61050000227314e+25,"label":"Dargorad Dymitryszyn","info":[{"Datazlecenia":"2018-01-04T23:00:00.000Z"},{"Datarealizacji":"2018-01-05T23:00:00.000Z"},{"Nrroz.BankuB":"10500002"}]},{"id":8.11140000032786e+25,"label":"Stasław Chorążyczewski","info":[{"Datazlecenia":"2018-01-04T23:00:00.000Z"},{"Datarealizacji":"2018-01-05T23:00:00.000Z"},{"Nrroz.BankuB":"11400000"}]},{"id":8.71160000692228e+25,"label":"Blizbor Starke","info":[{"Datazlecenia":"2018-01-04T23:00:00.000Z"},{"Datarealizacji":"2018-01-05T23:00:00.000Z"},{"Nrroz.BankuB":"11600006"}]},{"id":1.41540000426034e+25,"label":"Kielce Grefkiewicz","info":[{"Datazlecenia":"2018-01-04T23:00:00.000Z"},{"Datarealizacji":"2018-01-05T23:00:00.000Z"},{"Nrroz.BankuB":"15400004"}]}]
+        newGraph.nodes =[]; // dataBaseManagementProperties.find(); //[{"id":400,"label":"Oleg–Olek Pryłowski","info":[{"Datazlecenia":"2018-01-04T23:00:00.000Z"},{"Nrroz.BankuA":"10200003"},{"Datarealizacji":"2018-01-05T23:00:00.000Z"}]},{"id":390,"label":"Ludomiła Gleb","info":[{"Datazlecenia":"2018-01-04T23:00:00.000Z"},{"Datarealizacji":"2018-01-05T23:00:00.000Z"},{"Nrroz.BankuB":"12800003"}]},{"id":7.61030000651918e+25,"label":"Falisława Młynarczyk","info":[{"Datazlecenia":"2018-01-04T23:00:00.000Z"},{"Datarealizacji":"2018-01-05T23:00:00.000Z"},{"Nrroz.BankuB":"10300006"}]},{"id":5.42030000368553e+25,"label":"Cúmheá Strabczewski","info":[{"Datazlecenia":"2018-01-04T23:00:00.000Z"},{"Datarealizacji":"2018-01-05T23:00:00.000Z"},{"Nrroz.BankuB":"20300003"}]},{"id":5.16000003264484e+24,"label":"Daveth Narolski","info":[{"Datazlecenia":"2018-01-04T23:00:00.000Z"},{"Datarealizacji":"2018-01-05T23:00:00.000Z"},{"Nrroz.BankuB":"16000003"}]},{"id":6.61050000227314e+25,"label":"Dargorad Dymitryszyn","info":[{"Datazlecenia":"2018-01-04T23:00:00.000Z"},{"Datarealizacji":"2018-01-05T23:00:00.000Z"},{"Nrroz.BankuB":"10500002"}]},{"id":8.11140000032786e+25,"label":"Stasław Chorążyczewski","info":[{"Datazlecenia":"2018-01-04T23:00:00.000Z"},{"Datarealizacji":"2018-01-05T23:00:00.000Z"},{"Nrroz.BankuB":"11400000"}]},{"id":8.71160000692228e+25,"label":"Blizbor Starke","info":[{"Datazlecenia":"2018-01-04T23:00:00.000Z"},{"Datarealizacji":"2018-01-05T23:00:00.000Z"},{"Nrroz.BankuB":"11600006"}]},{"id":1.41540000426034e+25,"label":"Kielce Grefkiewicz","info":[{"Datazlecenia":"2018-01-04T23:00:00.000Z"},{"Datarealizacji":"2018-01-05T23:00:00.000Z"},{"Nrroz.BankuB":"15400004"}]}]
         newGraph.edges = [{"from":400,"to":7.92130000475495e+25},{"from":390,"to":500},{"from":7.61030000651918e+25,"to":390},{"from":5.42030000368553e+25,"to":600},{"from":5.16000003264484e+24,"to":6.61050000227314e+25},{"from":6.61050000227314e+25,"to":9.41280000345061e+25},{"from":8.11140000032786e+25,"to":7.15400004535293e+24},{"from":8.71160000692228e+25,"to":6.1168000074669e+25},{"from":1.41940000868084e+25,"to":2.17400006341013e+24},{"from":1.41540000426034e+25,"to":100}];
         this.state = {
             graph: newGraph,
@@ -303,6 +297,7 @@ export default class VisReact extends Component {
                     getNodes={this.getNodes}
                     events={this.events}
                     vis={vis => (this.vis = vis)}
+                    onClick={this.setState({})}
                 />
             </Fragment>
         );

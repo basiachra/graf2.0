@@ -2,6 +2,11 @@ const dataBaseModule = require(`./../app/database/forerunnerDB`.replace(/\\/g, '
 const DataBaseManagementProperties = require('./DataBaseManagementProperties');
 module.exports = {
 
+    getDataBase: function(projectName, pathToData,graphName){
+        let dataBaseInstance = dataBaseModule.initDataBase(projectName, pathToData);
+        return dataBaseModule.loadDataBase(dataBaseInstance,graphName+'node');
+    },
+
     initAndPrepareDataBase: function (projectProperties) {
 
         let projectName = projectProperties.getProjectName();
@@ -9,7 +14,7 @@ module.exports = {
         let pathToData = projectProperties.getPathToData();
 
         let dataBaseInstance = dataBaseModule.initDataBase(projectName, pathToData);
-        let dataCollectionWithRawData = this.initCollectionForRawData(dataBaseInstance,graphName)
+        let dataCollectionWithRawData = this.initCollectionForRawData(dataBaseInstance,graphName);
         let collectionForNodesData = this.initCollectionForNodes(dataBaseInstance, graphName);
         let collectionForConnectionData = this.initCollectionForConnections(dataBaseInstance, graphName);
 
@@ -33,6 +38,7 @@ module.exports = {
 
     addRawDataToDataBase: function (dataCollectionWithRawData,data) {
         dataBaseModule.insertJson(dataCollectionWithRawData, data);
+        console.log(data);
         dataBaseModule.saveDataBaseCollection(dataCollectionWithRawData);
     }
 };

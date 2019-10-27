@@ -1,7 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2efcaec0-79cf-4090-a573-e7d950740d5d" name="Default Changelist" comment="" />
+    <list default="true" id="2efcaec0-79cf-4090-a573-e7d950740d5d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/database/configData/databaseTest-graphJson-metaData.fdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/database/configData/databaseTest-graphJson.fdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/database/configData/databaseTest-json-metaData.fdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/database/configData/databaseTest-json.fdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/database/configData/excelDataTest-graphJson-metaData.fdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/database/configData/excelDataTest-graphJson.fdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/database/configData/excelDataTest-json-metaData.fdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/database/configData/excelDataTest-json.fdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/database/configData/projectName-graphNameconnection.fdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/database/configData/projectName-graphNamenode.fdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/database/configData/projectName-graphNamerawData.fdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/database/forerunnerDB.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/database/forerunnerDB.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphs/dataBaseManagement.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphs/dataBaseManagement.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphs/extended/graphForProfessionals.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphs/extended/graphForProfessionals.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphs/standard/graphForBankTransaction.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphs/standard/graphForBankTransaction.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graphs/visModule/VisGraphData.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/graphs/visModule/VisGraphData.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react/containers/Properties.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/react/containers/Properties.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react/containers/visGraphDraw.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/react/containers/visGraphDraw.js" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -15,30 +35,205 @@
     <session id="-1897855877">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.92" value="1" />
+          <entry key="project.opened" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="css" value="2" />
+          <entry key="fdb" value="23" />
+          <entry key="html" value="7" />
+          <entry key="js" value="80" />
+          <entry key="json" value="8" />
+          <entry key="njs" value="1" />
+          <entry key="svg" value="3" />
+          <entry key="ts" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="CSS" value="2" />
+          <entry key="HTML" value="7" />
+          <entry key="JSON" value="8" />
+          <entry key="JavaScript" value="81" />
+          <entry key="PLAIN_TEXT" value="23" />
+          <entry key="SVG" value="3" />
+          <entry key="TypeScript" value="1" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="fdb" value="3" />
+          <entry key="html" value="40" />
+          <entry key="js" value="7102" />
+          <entry key="json" value="102" />
+          <entry key="svg" value="41" />
+          <entry key="txt" value="13" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="HTML" value="40" />
+          <entry key="JSON" value="102" />
+          <entry key="JavaScript" value="7102" />
+          <entry key="PLAIN_TEXT" value="16" />
+          <entry key="SVG" value="41" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.js.language.service.starts">
+        <counts>
+          <entry key="ESLintLanguageService" value="3" />
+          <entry key="TypeScriptServerServiceImpl" value="1" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/package.json">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/react/containers/Properties.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="289">
+              <caret line="206" column="148" selection-start-line="206" selection-start-column="107" selection-end-line="206" selection-end-column="148" />
+              <folding>
+                <element signature="e#96#120#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/react/containers/visGraphDraw.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="99" column="29" selection-start-line="99" selection-start-column="29" selection-end-line="99" selection-end-column="29" />
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/graphs/dataBaseManagement.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-221">
+              <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/app/database/forerunnerDB.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="289">
+              <caret line="47" column="10" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="10" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>loa</find>
+      <find>setupEvents</find>
+      <find>drawning</find>
+      <find>drawing</find>
+      <find>//całość do zmiany</find>
+      <find>draw</find>
+      <find>SheetJSFT</find>
+      <find>cols</find>
+      <find>json</find>
+      <find>Graphpr</find>
+      <find>ProjectProperties</find>
+      <find>dataparse</find>
+      <find>excel</find>
+      <find>node</find>
+      <find>drawVisGraph</find>
+      <find>vis/vis</find>
+      <find>jsonData</find>
+      <find>redirectToLearn</find>
+      <find>getObjects</find>
+      <find>setDataWithoutDuplicatesOfEdges</find>
+      <find>_id</find>
+      <find>vis</find>
+      <find>update</find>
+      <find>VisGraphData</find>
+      <find>auto</find>
+      <find>dir</find>
+      <find>persist</find>
+      <find>dataDir</find>
+    </findStrings>
+    <dirStrings>
+      <dir>C:\Users\ja\Desktop\PROGRAMMING\projects\graf2.0\node_modules</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/public/electron.js" />
+        <option value="$PROJECT_DIR$/src/start.js" />
+        <option value="$PROJECT_DIR$/react/containers/main_view.js" />
+        <option value="$PROJECT_DIR$/src/App.css" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/indexProp.html" />
+        <option value="$PROJECT_DIR$/src/electron_main.js" />
+        <option value="$PROJECT_DIR$/src/react/containers/main_view.js" />
+        <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/src/app/dataparse/excelToJson.js" />
+        <option value="$PROJECT_DIR$/src/react/scripts/ExcelReader.js" />
+        <option value="$PROJECT_DIR$/src/react/scripts/MakeColumns.js" />
+        <option value="$PROJECT_DIR$/src/react/scripts/excelReader/types.js" />
+        <option value="$PROJECT_DIR$/src/react/scripts/excelReader/ExcelReader.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/src/react/scripts/excelReader/MakeColumns.js" />
+        <option value="$PROJECT_DIR$/src/css/images/plus-svgrepo-com.svg" />
+        <option value="$PROJECT_DIR$/src/css/images/multiply-cancel-svgrepo-com.svg" />
+        <option value="$PROJECT_DIR$/src/graphs/drawing2.js" />
+        <option value="$PROJECT_DIR$/src/graphs/ProjectProperties.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/public/index.html" />
+        <option value="$PROJECT_DIR$/src/graphs/visModule/visGraphDraw.js" />
+        <option value="$PROJECT_DIR$/src/react/containers/Main.js" />
+        <option value="$PROJECT_DIR$/src/graphs/extended/graphForProfessionals.js" />
+        <option value="$PROJECT_DIR$/src/graphs/visModule/VisGraphData.js" />
+        <option value="$PROJECT_DIR$/src/graphs/standard/graphForBankTransaction.js" />
+        <option value="$PROJECT_DIR$/src/app/database/configData/projectName-graphNamenode.fdb" />
+        <option value="$PROJECT_DIR$/src/app/database/configData/projectName-graphNameconnection.fdb" />
+        <option value="$PROJECT_DIR$/src/app/database/configData/projectName-graphNamerawData.fdb" />
+        <option value="$PROJECT_DIR$/node_modules/forerunnerdb/js/lib/NodePersist.js" />
+        <option value="$PROJECT_DIR$/src/react/containers/Properties.js" />
+        <option value="$PROJECT_DIR$/src/app/database/forerunnerDB.js" />
+        <option value="$PROJECT_DIR$/src/graphs/dataBaseManagement.js" />
+        <option value="$PROJECT_DIR$/src/react/containers/visGraphDraw.js" />
+      </list>
+    </option>
+  </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
-  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
+    <package-json value="$PROJECT_DIR$/package.json" />
+  </component>
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
@@ -46,17 +241,17 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="688" />
-    <option name="y" value="-12" />
-    <option name="width" value="978" />
-    <option name="height" value="1048" />
+    <option name="x" value="222" />
+    <option name="y" value="77" />
+    <option name="width" value="1669" />
+    <option name="height" value="965" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -64,19 +259,63 @@
               <item name="graf2.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="graf2.0" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="graf2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graf2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graf2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graf2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="react" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graf2.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graf2.0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="react" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.14.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/node_modules" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.selected.package.eslint" value="C:\Users\ja\Desktop\PROGRAMMING\projects\graf2.0\node_modules\eslint" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\ja\Desktop\PROGRAMMING\projects\graf2.0\node_modules\prettier" />
     <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2018.2.5\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ja\Desktop\PROGRAMMING\projects\graf2.0\src\app\database\configData" />
+      <recent name="C:\Users\ja\Desktop\PROGRAMMING\projects\graf2.0\src\react\scripts\excelReader" />
+      <recent name="C:\Users\ja\Desktop\PROGRAMMING\projects\graf2.0\src" />
+      <recent name="C:\Users\ja\Desktop\PROGRAMMING\projects\graf2.0\src\css" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ja\Desktop\PROGRAMMING\projects\graf2.0\configData" />
+      <recent name="C:\Users\ja\Desktop\PROGRAMMING\projects\graf2.0\src" />
+      <recent name="C:\Users\ja\Desktop\PROGRAMMING\projects\graf2.0\src\css\images" />
+      <recent name="C:\Users\ja\Desktop\PROGRAMMING\projects\graf2.0\app" />
+      <recent name="C:\Users\ja\Desktop\PROGRAMMING\projects\graf2.0" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -90,6 +329,9 @@
       </list>
     </option>
   </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="2efcaec0-79cf-4090-a573-e7d950740d5d" name="Default Changelist" comment="" />
@@ -97,43 +339,389 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572014510747</updated>
-      <workItem from="1572014513477" duration="490000" />
+      <workItem from="1572014513477" duration="7234000" />
+      <workItem from="1572104498803" duration="15135000" />
+      <workItem from="1572187195136" duration="28286000" />
     </task>
+    <task id="LOCAL-00001" summary="init">
+      <created>1572200689694</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1572200689694</updated>
+    </task>
+    <task id="LOCAL-00002" summary="vis react">
+      <created>1572204580947</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1572204581024</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="490000" />
+    <option name="totallyTimeSpent" value="50655000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24983476" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22405817" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="npm" order="2" side_tool="true" />
+      <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32907802" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44913927" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32907802" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="10" visible="true" weight="0.19574468" />
+      <window_info anchor="bottom" id="TypeScript" order="11" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
   </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init" />
+    <MESSAGE value="vis react" />
+    <option name="LAST_COMMIT_MESSAGE" value="vis react" />
+  </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/css/animate.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/electron_main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="53" column="63" selection-start-line="53" selection-start-column="53" selection-end-line="53" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/graphs/data.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/indexProp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="181">
+          <caret line="53" column="39" lean-forward="true" selection-start-line="53" selection-start-column="39" selection-end-line="53" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/xlsx/bin/xlsx.njs" />
+    <entry file="file://$PROJECT_DIR$/node_modules/xlsx/types/index.d.ts" />
+    <entry file="file://$PROJECT_DIR$/src/react/scripts/excelReader/ExcelReader.js" />
+    <entry file="file://$PROJECT_DIR$/src/app/dataparse/excelToJson.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="26" column="28" lean-forward="true" selection-start-line="10" selection-start-column="8" selection-end-line="26" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/react/scripts/excelReader/types.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="49" lean-forward="true" selection-start-line="2" selection-start-column="49" selection-end-line="2" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/react/scripts/excelReader/MakeColumns.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/vis/dist/vis.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="46509" lean-forward="true" selection-start-line="46509" selection-end-line="46509" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/images/multiply-cancel-svgrepo-com.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/css/images/plus.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/graphs/drawing1.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2005">
+          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/graphs/drawing2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="1" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/graphs/ProjectProperties.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="4" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/node-persist/src/node-persist.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="56" column="32" lean-forward="true" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="-377">
+          <caret line="22" column="19" selection-start-line="22" selection-start-column="19" selection-end-line="22" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/src/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1683">
+          <caret line="99" column="11" selection-start-line="99" selection-start-column="11" selection-end-line="99" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="18" column="56" selection-start-line="18" selection-start-column="56" selection-end-line="18" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/graphs/visModule/visGraphDraw.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="126" column="23" lean-forward="true" selection-start-line="126" selection-start-column="23" selection-end-line="126" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/graphs/GraphProperties.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="22" lean-forward="true" selection-start-line="29" selection-start-column="22" selection-end-line="29" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/graphs/visModule/VisGraphData.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/graphs/standard/graphForBankTransaction.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="35" column="28" selection-start-line="35" selection-start-column="28" selection-end-line="35" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/database/configData/excelDataTest-graphJson-metaData.fdb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/database/configData/excelDataTest-json-metaData.fdb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/database/configData/excelDataTest-json.fdb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/database/configData/databaseTest-graphJson-metaData.fdb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/react/containers/Main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="47" lean-forward="true" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/graphs/extended/graphForProfessionals.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/database/configData/projectName-graphNameconnection.fdb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="33" lean-forward="true" selection-start-column="33" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configData/projectName-graphNameconnection.fdb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/forerunnerdb/ionicExampleClient/www/lib/forerunnerdb/js/dist/fdb-core+persist.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="28741" column="48" selection-start-line="28741" selection-start-column="44" selection-end-line="28741" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/forerunnerdb/js/unitTests/lib/fdb-core.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/forerunnerdb/js/unitTests/lib/fdb-core+persist.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2">
+          <caret line="15596" column="36" lean-forward="true" selection-start-line="15596" selection-start-column="36" selection-end-line="15596" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/forerunnerdb/js/unitTests/lib/fdb-legacy.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5338">
+          <caret line="314" column="49" selection-start-line="314" selection-start-column="46" selection-end-line="314" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/forerunnerdb/js/builds/nodecore.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="22" lean-forward="true" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/forerunnerdb/js/useTests/js/nodeApiServer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="27" lean-forward="true" selection-start-line="4" selection-start-column="27" selection-end-line="4" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/forerunnerdb/js/lib/NodePersist.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="445" column="5" lean-forward="true" selection-start-line="445" selection-start-column="5" selection-end-line="445" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/database/configData/projectName-graphNamerawData.fdb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="19" selection-start-column="19" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configData/projectName-graphNamenode.fdb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/database/configData/projectName-graphNamenode.fdb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="63" lean-forward="true" selection-start-column="63" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/graphs/DataBaseManagementProperties.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="37" lean-forward="true" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/react/containers/Properties.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="206" column="148" selection-start-line="206" selection-start-column="107" selection-end-line="206" selection-end-column="148" />
+          <folding>
+            <element signature="e#96#120#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/app/database/forerunnerDB.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="47" column="10" selection-start-line="47" selection-start-column="8" selection-end-line="47" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/graphs/dataBaseManagement.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-221">
+          <caret line="5" column="7" lean-forward="true" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/react/containers/visGraphDraw.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="99" column="29" selection-start-line="99" selection-start-column="29" selection-end-line="99" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

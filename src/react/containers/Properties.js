@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+// import {importFiles} from "../../app/src/js/script";
 import XLSX from "xlsx";
 import {make_cols} from "../scripts/excelReader/MakeColumns";
 import {SheetJSFT} from "../scripts/excelReader/types";
@@ -204,13 +205,15 @@ class Properties extends Component {
 
     handleSaveNodes = () => {
         let dataBaseManagementProperties = dataBaseManagement.initAndPrepareDataBase(new ProjectProperties("projectName","graphName","./configData"));
-        dataBaseManagement.addRawDataToDataBase(dataBaseManagementProperties.getDataCollectionWithRowData());
+        dataBaseManagement.addRawDataToDataBase(dataBaseManagementProperties.getDataCollectionWithRowData(),this.state.data);
 
         let graphP = new GraphProperties(new NodeAttributesNames(this.state.nodes[0].id, this.state.nodes[0].name, this.state.nodes[0].properties),
             new NodeAttributesNames(this.state.nodes[1].id, this.state.nodes[1].name,this.state.nodes[1].properties),
             new EdgeAttributesNames(this.state.nodes[0].edgeLabel,[this.state.nodes[0].edgeFrom,this.state.nodes[0].edgeTo]));
 
-        console.log(parseRawDataToBankTransactionTemple(dataBaseManagementProperties, graphP));
+        parseRawDataToBankTransactionTemple(dataBaseManagementProperties, graphP);
+        let nodes = dataBaseManagementProperties.getCollectionForNodesData();
+        console.log(nodes.find());
     };
 
     renderOptions = () => {

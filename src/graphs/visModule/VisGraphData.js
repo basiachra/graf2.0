@@ -1,4 +1,5 @@
-export class VisGraphData{
+export class VisGraphData {
+
     constructor(nodeSet,connectionSet){
         this.nodeSet = nodeSet;
         this.connectionSet = connectionSet;
