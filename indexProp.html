@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Graph properties</title>
+
+    <link rel="stylesheet" type="text/css" href="src/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="src/css/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="src/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="src/css/App.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400&amp;subset=latin-ext" rel="stylesheet">
+
+    <script>
+        const script = require('src/app/src/js/script');
+    </script>
+</head>
+<body>
+<div class="propertiesWrapper">
+<div class="form" id="form">
+    <div id="fileName" class="textField">Nie wybrano żadnego pliku</div>
+    <input id="fileInput"  type="file" onchange="script.importFiles(event)"/>
+    <label class="fileInput" for="fileInput">Wybierz plik</label>
+</div>
+
+
+
+
+
+<div class="properties" id="nodeNames">
+    <h2>Select Properties</h2>
+    <div class="properties__wrapper">
+        <div class="left">
+            <h3>Properties</h3>
+            <div id="headers"></div>
+        </div>
+        <div class="center">
+            <button id="name"><i class="icon ion-android-arrow-forward"></i></button>
+            <button id="props"><i class="icon ion-android-arrow-forward"></i></button>
+            <button id="edge"><i class="icon ion-android-arrow-forward"></i></button>
+            <button id="back"><i class="icon ion-android-arrow-back"></i></button>
+        </div>
+
+        <div class="right">
+            <h3>Node Name</h3>
+            <div id="nodeName"></div>
+            <h3>Node Info</h3>
+            <div id="nodeProps"></div>
+            <h3>Edges</h3>
+            <div id="nodeEdge"></div>
+
+        </div>
+
+    </div>
+    <button id="save" class="next">Save</button>
+
+    <!--<form class="userInput">-->
+
+        <!--<select name="header" id="nodeA" class="headers"></select>-->
+        <!--<label for="nodeA">Main node</label>-->
+        <!--<p>If there are more then one column for main node</p>-->
+        <!--<select name="header" id="nodeB" class="headers">-->
+            <!--<option>None</option>-->
+        <!--</select>-->
+        <!--<label for="nodeB">Additional main node</label>-->
+        <!--<p>Edges: A and B must have equal values to create an edge!</p>-->
+        <!--<select name="header" id="edgeA" class="headers"></select>-->
+        <!--<label for="edgeA">Edge A</label>-->
+        <!--<select name="header" id="edgeB" class="headers"></select>-->
+        <!--<label for="edgeB">Edge B</label>-->
+        <!--<select name="header" id="edgeName" class="headers"></select>-->
+        <!--<label for="edgeName">Edge label</label>-->
+    <!--</form>-->
+</div>
+</div>
+</body>
+</html>

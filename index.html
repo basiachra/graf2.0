@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>graphdesign</title>
+
+    <script type="text/javascript" src="src/vis/vis.js"></script>
+    <link href="src/vis/vis-network.min.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" type="text/css" href="src/app/src/css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="src/app/src/css/ionicons.min.css">
+    <link rel="stylesheet" type="text/css" href="src/app/src/css/animate.css">
+    <link rel="stylesheet" type="text/css" href="src/app/src/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,300i,400&amp;subset=latin-ext" rel="stylesheet">
+
+
+
+    <script type="module">
+        // const drawGraph = require('./graphs/drawing');
+        // drawGraph.draw();
+
+        const { ipcRenderer } = require('electron');
+
+        ipcRenderer.on('run', (event, arg) => {
+            console.log(arg);
+
+            // const drawGraph = require('./graphs/drawing2');
+            // drawGraph.data(arg[0],arg[1],arg[2],arg[3])
+        });
+
+    </script>
+<!--
+    <script src = 'app/database/forerunnerFirst.js'></script>
+-->
+</head>
+
+<body>
+<div class="container">
+   <div class="row">
+        <div class="col-1" id="left">
+            <div id="project">
+                <h2>Project structure</h2>
+            </div>
+            <div id="data">
+                <h2>Data Base view</h2>
+            </div>
+        </div>
+        <div class="col-2" >
+            <div class="search">
+                <h2>search</h2>
+            </div>
+            <div class="tabs">
+                <h2>tabs</h2>
+            </div>
+            <div id="myNetwork"></div>
+        </div>
+        <div class="col-3" id="right">
+            <div id="info">
+                <h2>Current Node info</h2>
+                <h4 id="node-name"></h4>
+                <p id="info-1"></p>
+                <p id="info-2"></p>
+            </div>
+            <div id="node-view">
+                <h2>Current Node view</h2>
+                <div id="curr-node"></div>
+            </div>
+            <div id="filter">
+                <h2>Filters</h2>
+                <div id="filters"></div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>
