@@ -1,5 +1,4 @@
 const EventEmitter = require('events');
-const vis = require("../../app/src/vis/vis");
 
 class MyEmitter extends EventEmitter {
 }
@@ -134,7 +133,7 @@ module.exports = {
 
         let data1 = [nodesSet, edgesSet];
 
-        visGraphDrawModule.drawVisGraph(data1);
+       // visGraphDrawModule.drawVisGraph(data1);
     },
 
 };

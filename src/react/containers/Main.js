@@ -1,4 +1,5 @@
 import React from "react";
+import VisReact from "./visGraphDraw";
 
 function Main() {
 
@@ -20,7 +21,7 @@ function Main() {
                     <div className="tabs">
                         <h2>tabs</h2>
                     </div>
-                    <div id="myNetwork"/>
+                   <VisReact/>
                 </div>
                 <div className="col-3" id="right">
                     <div id="info">

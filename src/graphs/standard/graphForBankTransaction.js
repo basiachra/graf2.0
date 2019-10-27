@@ -19,16 +19,15 @@ module.exports = {
         let dataBaseManagementProperties = dataBaseManagement.initAndPrepareDataBase(projectProperties);
         dataBaseManagement.addRawDataToDataBase(dataBaseManagementProperties.getDataCollectionWithRowData(), fileWithData);
         let dataForDrawVis = this.parseRawDataToBankTransactionTemple(dataBaseManagementProperties, graphProperties);
-        visGraphDrawModule.drawVisGraph(dataForDrawVis);
+        ///visGraphDrawModule.drawVisGraph(dataForDrawVis);
     },
     parseRawDataToBankTransactionTemple: function (dataBaseManagementProperties, graphProperties) {
         const VisGraphData = require('./../visModule/VisGraphData');
-        const vis = require("../../app/src/vis/vis");
 
         let connectionData = [];
 
-        let nodesSet = new vis.DataSet();
-        let collectionSet = new vis.DataSet();
+        let nodesSet = new this.vis.DataSet();
+        let collectionSet = new this.vis.DataSet();
 
         dataBaseManagementProperties.getDataCollectionWithRowData().find().forEach(function (dataFromDataBase, index) {
 
@@ -80,13 +79,14 @@ module.exports = {
 
             console.log(nodesSet);
 
-        })
+        });
 
         collectionSet.update(this.setDataWithoutDuplicatesOfEdges(connectionData));
         dataBaseManagementProperties.getDataBaseModule().saveDataBaseCollection(dataBaseManagementProperties.getCollectionForNodesData());
         dataBaseManagementProperties.getDataBaseModule().saveDataBaseCollection(dataBaseManagementProperties.getCollectionForConnectionData());
 
-        return new VisGraphData(nodesSet, collectionSet).mergeData()
+        const graph =  new VisGraphData(nodesSet, collectionSet);
+        return graph.mergeData()
     },
 
     setDataWithoutDuplicatesOfEdges: function (connectionData) {
