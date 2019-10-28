@@ -1,5 +1,4 @@
-export class VisGraphData {
-
+class VisGraphData{
     constructor(nodeSet,connectionSet){
         this.nodeSet = nodeSet;
         this.connectionSet = connectionSet;
@@ -8,3 +7,5 @@ export class VisGraphData {
         return [this.nodeSet, this.connectionSet];
     }
 };
+
+module.exports = VisGraphData;

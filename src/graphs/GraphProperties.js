@@ -28,10 +28,11 @@ class EdgeAttributesNames{
 }
 
 class GraphProperties{
-    constructor(baseNodeAttributesNames, connectorNodeAttributesNames, edgeAttributesNames) {
+    constructor(baseNodeAttributesNames, connectorNodeAttributesNames, edgeAttributesNames, isAllowGrouping) {
         this.baseNodeAttributesNames = baseNodeAttributesNames;
         this.connectorNodeAttributesNames = connectorNodeAttributesNames;
         this.edgeAttributesNames = edgeAttributesNames;
+        this.isAllowGrouping = isAllowGrouping;
     }
     getBaseNodeAttributesNames(){
         return this.baseNodeAttributesNames;
@@ -41,6 +42,9 @@ class GraphProperties{
     }
     getEdgeAttributesNames(){
         return this.edgeAttributesNames;
+    }
+    getIsAllowGrouping(){
+        return this.isAllowGrouping;
     }
 }
 

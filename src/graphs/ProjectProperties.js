@@ -1,4 +1,4 @@
-export class ProjectProperties {
+class ProjectProperties {
     constructor(projectName, graphName, pathToData) {
         this.projectName = projectName;
         this.graphName = graphName;
@@ -14,3 +14,4 @@ export class ProjectProperties {
        return this.pathToData;
     }
 }
+module.exports = ProjectProperties;

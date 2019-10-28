@@ -2,14 +2,6 @@ const dataBaseModule = require(`./../app/database/forerunnerDB`.replace(/\\/g, '
 const DataBaseManagementProperties = require('./DataBaseManagementProperties');
 module.exports = {
 
-    getDataBase: async function(dataBaseInstance,graphName){
-       let nodes = dataBaseInstance.getCollectionForNodesData();
-        nodes = await dataBaseModule.loadDataBase(nodes);
-        console.log(nodes);
-
-        return nodes;
-    },
-
     initAndPrepareDataBase: function (projectProperties) {
 
         let projectName = projectProperties.getProjectName();
@@ -17,7 +9,7 @@ module.exports = {
         let pathToData = projectProperties.getPathToData();
 
         let dataBaseInstance = dataBaseModule.initDataBase(projectName, pathToData);
-        let dataCollectionWithRawData = this.initCollectionForRawData(dataBaseInstance,graphName);
+        let dataCollectionWithRawData = this.initCollectionForRawData(dataBaseInstance,graphName)
         let collectionForNodesData = this.initCollectionForNodes(dataBaseInstance, graphName);
         let collectionForConnectionData = this.initCollectionForConnections(dataBaseInstance, graphName);
 
@@ -39,10 +31,11 @@ module.exports = {
         return dataBaseModule.setCollection(dataBaseInstance, collectionNameForConnections);
     },
 
-    addRawDataToDataBase: function (dataCollectionWithRawData,data) {
-        dataBaseModule.insertJson(dataCollectionWithRawData, data);
-        console.log(data);
+    addRawDataToDataBase: function (dataCollectionWithRawData,fileWithData) {
+        const transferToJson = require('../app/dataparse/excelToJson');
+        let jsonRawDataFromExcel = transferToJson.parseDataFromExcelToJson(false, fileWithData);
+        dataBaseModule.insertJson(dataCollectionWithRawData, jsonRawDataFromExcel);
         dataBaseModule.saveDataBaseCollection(dataCollectionWithRawData);
-    }
-};
+    },
+}
 
