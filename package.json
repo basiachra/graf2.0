@@ -16,7 +16,7 @@
     "electron-is-dev": "^1.1.0",
     "event-stream": "^3.3.5",
     "forerunnerdb": "^2.0.22",
-    "jquery": ">=3.4.0",
+    "jquery": ">=3.5.0",
     "json-object-stream": "^0.1.1",
     "node-persist": "^3.0.5",
     "npm": "^6.9.0",
